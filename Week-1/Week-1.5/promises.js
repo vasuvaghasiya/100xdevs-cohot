@@ -8,7 +8,7 @@ function readFromFile(){
         the resolve function is called when the asynchronous operation inside the Promise completes successfully. The data passed to resolve is then accessible in the .then block, where we print it to the console.
     */
     //promises avoid  call back hell.
-    //promises is clear way to wright async functions your own and reduce call back hell.
+    //promises is clear or better  way to wright async functions or code and reduce call back hell.
         return new Promise(function(resolve){
         console.log("inside promise");
         //async operation
