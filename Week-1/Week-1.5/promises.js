@@ -12,7 +12,7 @@ function readFromFile(){
         return new Promise(function(resolve){
         console.log("inside promise");
         //async operation
-        fs.readFile("read.txt","utf-8",function(err,data){
+        fs.readFile("callback_hell.txt","utf-8",function(err,data){
             console.log("before resolve");
             resolve(data);
             
